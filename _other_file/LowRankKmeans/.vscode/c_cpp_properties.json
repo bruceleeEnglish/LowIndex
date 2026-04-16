@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "/home/brucelee/miniconda3/envs/faiss_custom/include"
+            ],
+            "defines": [],
+            "compilerPath": "/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

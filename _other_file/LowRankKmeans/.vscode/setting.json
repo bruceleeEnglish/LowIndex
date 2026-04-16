@@ -1,0 +1,9 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc",
+        "CMAKE_CXX_COMPILER": "/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++"
+    },
+    "C_Cpp.default.compilerPath": "/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++"
+}

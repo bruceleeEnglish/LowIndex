@@ -477,6 +477,16 @@ def yandex_toi(out_fn: str, size: int) -> None:
     write_output(X_train, X_test, out_fn, "angular")
 
 
+
+def mnist_normalized(_: str) -> None:
+    dataset_path = "/data1/lyq/lorann/python_custom/mnist_normalized.hdf5"
+    print(f"Loading dataset from {dataset_path}...")
+    with h5py.File(dataset_path, "r") as f:
+        train = f["train"][:]
+        test = f["test"][:]
+    print(f"Loaded train shape: {train.shape}, test shape: {test.shape}")
+
+
 DATASETS: Dict[str, Callable[[str], None]] = {
     "fashion-mnist-784-euclidean": fashion_mnist,
     "gist-960-euclidean": gist,
@@ -495,4 +505,5 @@ DATASETS: Dict[str, Callable[[str], None]] = {
     "wolt-vit-512-angular": wolt_vit,
     "yandex-400K-200-angular": lambda out_fn: yandex_toi(out_fn, 400_000),
     "yandex-5M-200-angular": lambda out_fn: yandex_toi(out_fn, 5_000_000),
+    "mnist-normalized-784-euclidean": mnist_normalized
 }

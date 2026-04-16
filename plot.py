@@ -35,7 +35,7 @@ def create_plot(title, all_data, raw, x_scale, y_scale, xn, yn, fn_out, linestyl
         max_x = max([max_x] + [x for x in xs if x < 1])
         color, faded, linestyle, marker = linestyles[algo]
         (handle,) = plt.plot(
-            xs, ys, "-", label=algo, color=color, ms=7, mew=3, lw=3, marker=marker
+            xs, ys, "-", label=algo, color=color, ms=2.5, mew=3, lw=1.5, marker=marker
         )
         handles.append(handle)
         if raw:

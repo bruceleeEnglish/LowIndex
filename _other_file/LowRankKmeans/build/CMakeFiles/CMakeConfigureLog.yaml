@@ -1,0 +1,1032 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 3.10.0-1160.el7.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/brucelee/miniconda3/envs/faiss_custom/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/3.31.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/brucelee/miniconda3/envs/faiss_custom/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/3.31.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0350c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0350c.dir/build.make CMakeFiles/cmTC_0350c.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF'
+        Building C object CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include    -v -o CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -c /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_0350c.dir/'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/brucelee/miniconda3/envs/faiss_custom/include /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0350c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o
+        GNU C17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/brucelee/miniconda3/envs/faiss_custom/include
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: cfc6d60748a3f63fbd009e7e88e803d9
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_0350c
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0350c.dir/link.txt --verbose=1
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc
+        COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_0350c' '-dumpdir' 'cmTC_0350c.'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLsFJx2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0350c /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        collect2 version 13.3.0
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLsFJx2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0350c /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_0350c' '-dumpdir' 'cmTC_0350c.'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include   -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib -v -Wl,-v CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -o cmTC_0350c
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/include]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/include]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/brucelee/miniconda3/envs/faiss_custom/include;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0350c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0350c.dir/build.make CMakeFiles/cmTC_0350c.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-uXSabF']
+        ignore line: [Building C object CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include    -v -o CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -c /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_0350c.dir/']
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1 -quiet -v -iprefix /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/brucelee/miniconda3/envs/faiss_custom/include /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0350c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU C17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/include]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: cfc6d60748a3f63fbd009e7e88e803d9]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_0350c]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0350c.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_0350c' '-dumpdir' 'cmTC_0350c.']
+        link line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLsFJx2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0350c /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccLsFJx2.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0350c] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLsFJx2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0350c /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_0350c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+        linker tool for 'C': /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib;/home/brucelee/miniconda3/envs/faiss_custom/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Running the C compiler's linker: "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a25c8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a25c8.dir/build.make CMakeFiles/cmTC_a25c8.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA'
+        Building CXX object CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include    -v -o CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -c /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_a25c8.dir/'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/brucelee/miniconda3/envs/faiss_custom/include /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a25c8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o
+        GNU C++17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"
+        ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/brucelee/miniconda3/envs/faiss_custom/include
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        Compiler executable checksum: 039015ee0a9e66f9e392e0a654f3b067
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a25c8
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25c8.dir/link.txt --verbose=1
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++
+        COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_a25c8' '-shared-libgcc' '-dumpdir' 'cmTC_a25c8.'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciJhNpE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a25c8 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        collect2 version 13.3.0
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciJhNpE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a25c8 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        GNU ld (GNU Binutils) 2.43
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_a25c8' '-shared-libgcc' '-dumpdir' 'cmTC_a25c8.'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include   -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib -v -Wl,-v CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a25c8
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/include]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+          add: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/include]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/brucelee/miniconda3/envs/faiss_custom/include;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a25c8/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a25c8.dir/build.make CMakeFiles/cmTC_a25c8.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ZIRiFA']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include    -v -o CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -c /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_a25c8.dir/']
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/cc1plus -quiet -v -iprefix /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/ -isysroot /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/brucelee/miniconda3/envs/faiss_custom/include /home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a25c8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU C++17 (conda-forge gcc 13.3.0-1) version 13.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/include]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [Compiler executable checksum: 039015ee0a9e66f9e392e0a654f3b067]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a25c8]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25c8.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-v' '-o' 'cmTC_a25c8' '-shared-libgcc' '-dumpdir' 'cmTC_a25c8.']
+        link line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciJhNpE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a25c8 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cciJhNpE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a25c8] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+        ignore line: [collect2 version 13.3.0]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciJhNpE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a25c8 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib -v CMakeFiles/cmTC_a25c8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+        linker tool for 'CXX': /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o]
+        collapse obj [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib;/home/brucelee/miniconda3/envs/faiss_custom/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edd74/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_edd74.dir/build.make CMakeFiles/cmTC_edd74.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx'
+        Building C object CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx/OpenMPTryFlag.c
+        Linking C executable cmTC_edd74
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd74.dir/link.txt --verbose=1
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc
+        COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_edd74' '-pthread' '-dumpdir' 'cmTC_edd74.'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs69Wmo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_edd74 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_edd74' '-pthread' '-dumpdir' 'cmTC_edd74.'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  -v CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o -o cmTC_edd74
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:296 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edd74/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_edd74.dir/build.make CMakeFiles/cmTC_edd74.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx']
+        ignore line: [Building C object CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-SKvTPx/OpenMPTryFlag.c]
+        ignore line: [Linking C executable cmTC_edd74]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd74.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_edd74' '-pthread' '-dumpdir' 'cmTC_edd74.']
+        link line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs69Wmo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_edd74 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccs69Wmo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_edd74] ==> ignore
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+          arg [CMakeFiles/cmTC_edd74.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib;/home/brucelee/miniconda3/envs/faiss_custom/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32494/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32494.dir/build.make CMakeFiles/cmTC_32494.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v'
+        Building CXX object CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v/OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_32494
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32494.dir/link.txt --verbose=1
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++
+        COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (conda-forge gcc 13.3.0-1) 
+        COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_32494' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_32494.'
+         /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQLWqL0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_32494 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_32494' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_32494.'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  -v CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o -o cmTC_32494
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:296 (message)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32494/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_32494.dir/build.make CMakeFiles/cmTC_32494.dir/build]
+        ignore line: [gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v']
+        ignore line: [Building CXX object CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-jsL29v/OpenMPTryFlag.cpp]
+        ignore line: [Linking CXX executable cmTC_32494]
+        ignore line: [/home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32494.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1724798720716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++ --with-pkgversion='conda-forge gcc 13.3.0-1' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (conda-forge gcc 13.3.0-1) ]
+        ignore line: [COMPILER_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [Reading specs from /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/brucelee/miniconda3/envs/faiss_custom/include' '-fopenmp' '-v' '-o' 'cmTC_32494' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_32494.']
+        link line: [ /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2 -plugin /home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQLWqL0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_32494 /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtbeginS.o -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0 -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../.. -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/crtendS.o /home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/brucelee/miniconda3/envs/faiss_custom/lib]
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/brucelee/miniconda3/envs/faiss_custom/bin/../libexec/gcc/x86_64-conda-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccQLWqL0.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_32494] ==> ignore
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+          arg [CMakeFiles/cmTC_32494.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-rpath] ==> ignore
+          arg [/home/brucelee/miniconda3/envs/faiss_custom/lib] ==> ignore
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../..] ==> [/home/brucelee/miniconda3/envs/faiss_custom/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/brucelee/miniconda3/envs/faiss_custom/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc/x86_64-conda-linux-gnu/13.3.0;/home/brucelee/miniconda3/envs/faiss_custom/lib/gcc;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/lib;/home/brucelee/miniconda3/envs/faiss_custom/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/lib;/home/brucelee/miniconda3/envs/faiss_custom/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b53b6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b53b6.dir/build.make CMakeFiles/cmTC_b53b6.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv'
+        Building C object CMakeFiles/cmTC_b53b6.dir/OpenMPCheckVersion.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_b53b6.dir/OpenMPCheckVersion.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv/OpenMPCheckVersion.c
+        Linking C executable cmTC_b53b6
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b53b6.dir/link.txt --verbose=1
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  CMakeFiles/cmTC_b53b6.dir/OpenMPCheckVersion.c.o -o cmTC_b53b6
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-ImLYVv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2414/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f2414.dir/build.make CMakeFiles/cmTC_f2414.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw'
+        Building CXX object CMakeFiles/cmTC_f2414.dir/OpenMPCheckVersion.cpp.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp -o CMakeFiles/cmTC_f2414.dir/OpenMPCheckVersion.cpp.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_f2414
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2414.dir/link.txt --verbose=1
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-g++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -fopenmp  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  CMakeFiles/cmTC_f2414.dir/OpenMPCheckVersion.cpp.o -o cmTC_f2414
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NNRdNw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ead33/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ead33.dir/build.make CMakeFiles/cmTC_ead33.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y'
+        Building C object CMakeFiles/cmTC_ead33.dir/src.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include  -o CMakeFiles/cmTC_ead33.dir/src.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y/src.c
+        Linking C executable cmTC_ead33
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ead33.dir/link.txt --verbose=1
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_ead33.dir/src.c.o: in function `main':
+        src.c:(.text.startup.main+0x24): undefined reference to `pthread_create'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x2e): undefined reference to `pthread_detach'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x38): undefined reference to `pthread_cancel'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x44): undefined reference to `pthread_join'
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x50): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include   -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  CMakeFiles/cmTC_ead33.dir/src.c.o -o cmTC_ead33
+        gmake[1]: *** [cmTC_ead33] Error 1
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-6fiK4y'
+        gmake: *** [cmTC_ead33/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d3d41/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d3d41.dir/build.make CMakeFiles/cmTC_d3d41.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC'
+        Building C object CMakeFiles/cmTC_d3d41.dir/CheckFunctionExists.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d3d41.dir/CheckFunctionExists.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC/CheckFunctionExists.c
+        Linking C executable cmTC_d3d41
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3d41.dir/link.txt --verbose=1
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/../lib/gcc/x86_64-conda-linux-gnu/13.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  CMakeFiles/cmTC_d3d41.dir/CheckFunctionExists.c.o -o cmTC_d3d41  -lpthreads
+        gmake[1]: *** [cmTC_d3d41] Error 1
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-NgerlC'
+        gmake: *** [cmTC_d3d41/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/brucelee/miniconda3/envs/faiss_custom/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG"
+      binary: "/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG'
+        
+        Run Build Command(s): /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f420/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f420.dir/build.make CMakeFiles/cmTC_3f420.dir/build
+        gmake[1]: Entering directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG'
+        Building C object CMakeFiles/cmTC_3f420.dir/CheckFunctionExists.c.o
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3f420.dir/CheckFunctionExists.c.o -c /data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG/CheckFunctionExists.c
+        Linking C executable cmTC_3f420
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f420.dir/link.txt --verbose=1
+        /home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-gcc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/brucelee/miniconda3/envs/faiss_custom/include -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-rpath,/home/brucelee/miniconda3/envs/faiss_custom/lib  CMakeFiles/cmTC_3f420.dir/CheckFunctionExists.c.o -o cmTC_3f420  -lpthread
+        gmake[1]: Leaving directory `/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/CMakeScratch/TryCompile-4s29uG'
+        
+      exitCode: 0
+...

@@ -226,7 +226,9 @@ class QSG(BaseANN):
             result_expansion,
         )
         epsilon = epsilon - 1.0
-        self.index.set(epsilon=epsilon, result_expansion=result_expansion)
+        # self.index.set(epsilon=epsilon, result_expansion=result_expansion)
+        self.index.set(epsilon=epsilon, re=result_expansion)
+
 
     def query(self, v, n):
         return self.index.search(v, n)

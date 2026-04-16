@@ -1,0 +1,9 @@
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/lowrank_kmeans.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/lowrank_kmeans_test.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/test.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/edit_cache.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/rebuild_cache.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/list_install_components.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/install.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/install/local.dir
+/data1/lyq/lorann/test_code/LowRankKmeans/build/CMakeFiles/install/strip.dir

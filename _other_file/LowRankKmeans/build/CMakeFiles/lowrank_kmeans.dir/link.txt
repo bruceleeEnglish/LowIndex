@@ -1,0 +1,2 @@
+/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-ar qc liblowrank_kmeans.a CMakeFiles/lowrank_kmeans.dir/src/low_rank_kmeans.cpp.o
+/home/brucelee/miniconda3/envs/faiss_custom/bin/x86_64-conda-linux-gnu-ranlib liblowrank_kmeans.a

@@ -38,5 +38,3 @@ To plot results for the data set, run
 `python3 plot.py --dataset fashion-mnist-784-euclidean --count 100 --y-scale log`
 
 For a list of all the data sets, refer to the end of the file [ann_benchmarks/datasets.py](ann_benchmarks/datasets.py).
-
-Our main experiments are performed on AWS `r6i.4xlarge` instances using Intel Xeon 8375C (Ice Lake) processors with hyperthreading disabled. To run our GPU experiments, we use an AWS `g5.2xlarge` instance with an NVIDIA A10G GPU (24 GB VRAM) and a `mac2-m2pro.metal` instance with an Apple M2 Pro SoC.

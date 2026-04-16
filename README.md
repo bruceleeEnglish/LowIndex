@@ -1,13 +1,10 @@
-LoRANN Experiments
-==================
+# LorIndex
 
-Experiments for the paper
+This repository contains the experiment code for the LorIndex algorithm, benchmarked on the [ANN-benchmarks](https://github.com/erikbern/ann-benchmarks/) framework for approximate nearest neighbor (ANN) search.
 
-> Jääsaari, E., Hyvönen, V., & Roos, T. (2024). LoRANN: Low-Rank Matrix Factorization for Approximate Nearest Neighbor Search. Advances in Neural Information Processing Systems, 37.
+LorIndex combines low-rank matrix factorization with clustering strategies to improve the accuracy and efficiency of approximate nearest neighbor search.
 
-The code implementing LoRANN is in a [separate repository](https://github.com/ejaasaari/lorann).
-
-**This project is a fork of the [ANN-benchmarks](https://github.com/erikbern/ann-benchmarks/) project with new data sets and support for GPU experiments.**
+This repository includes the algorithm implementation, benchmarking scripts, and experiment results.
 
 -----------
 
